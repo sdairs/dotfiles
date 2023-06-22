@@ -4,7 +4,7 @@ ZSH_THEME="robbyrussell"
 
 zstyle ':omz:update' mode auto      # update automatically without asking
 
-HIST_STAMPS="yyyy/mm/dd"
+HIST_STAMPS="yyyy-mm-dd"
 
 plugins=(git)
 
