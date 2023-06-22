@@ -20,6 +20,10 @@ alias pvn='python3.10 -m venv .venv && source .venv/bin/activate'
 alias pvr='rm -rf .venv'
 alias dss='osascript /Applications/DocsScreenshots.scpt'
 alias wod=' cd ~/Desktop/devrel/documentation/tinybird-analytics/ && pva && git checkout master && gfa && git pull && cd docs'
+alias ls='exa'
+alias l='exa -lbF --git'
+alias ll='exa -lbGF --git'
+
 
 export GPG_TTY=$(tty)
 gpgconf --launch gpg-agent
