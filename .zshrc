@@ -19,10 +19,11 @@ alias pvd='deactivate'
 alias pvn='python3.10 -m venv .venv && source .venv/bin/activate'
 alias pvr='rm -rf .venv'
 alias dss='osascript /Applications/DocsScreenshots.scpt'
-alias wod=' cd ~/Desktop/devrel/documentation/tinybird-analytics/ && pva && git checkout master && gfa && git pull && cd docs'
-alias ls='exa'
-alias l='exa -lbF --git'
-alias ll='exa -lbGF --git'
+alias wod='cd ~/Desktop/devrel/documentation/analytics/ && pva && git checkout master && gfa && git pull && cd docs'
+alias ls='eza'
+alias l='eza -lbF --git'
+alias ll='eza -lbGF --git'
+alias cl='clear && ll'
 
 
 export GPG_TTY=$(tty)
