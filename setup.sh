@@ -5,7 +5,7 @@ chsh -s /opt/homebrew/bin/zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Install exa
-brew install exa
+brew install eza
 
 # Install warp
 brew install --cask warp
