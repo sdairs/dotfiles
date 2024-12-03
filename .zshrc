@@ -24,7 +24,8 @@ alias ls='eza'
 alias l='eza -lbF --git'
 alias ll='eza -lbGF --git'
 alias cl='clear && ll'
-
+alias code='windsurf'
+alias c='windsurf .'
 
 export GPG_TTY=$(tty)
 gpgconf --launch gpg-agent
@@ -36,3 +37,8 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+# Added by Windsurf
+export PATH="/Users/ab/.codeium/windsurf/bin:$PATH"
+alias claude="open -a Claude"
+alias qclaude="echo \"👋 Goodbye from Claude\" && osascript -e 'quit app \"Claude\"'"
