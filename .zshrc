@@ -13,13 +13,6 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 alias config='/usr/bin/git --git-dir=/Users/ab/.cfg/ --work-tree=/Users/ab'
-alias pvc='python3.10 -m venv .venv'
-alias pva='source .venv/bin/activate'
-alias pvd='deactivate'
-alias pvn='python3.10 -m venv .venv && source .venv/bin/activate'
-alias pvr='rm -rf .venv'
-alias dss='osascript /Applications/DocsScreenshots.scpt'
-alias wod='cd ~/Desktop/devrel/documentation/analytics/ && pva && git checkout master && gfa && git pull && cd docs'
 alias ls='eza'
 alias l='eza -lbF --git'
 alias ll='eza -lbGF --git'
@@ -42,3 +35,5 @@ esac
 export PATH="/Users/ab/.codeium/windsurf/bin:$PATH"
 alias claude="open -a Claude"
 alias qclaude="echo \"👋 Goodbye from Claude\" && osascript -e 'quit app \"Claude\"'"
+
+. "$HOME/.local/bin/env"
