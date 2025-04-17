@@ -19,9 +19,10 @@ alias ll='eza -lbGF --git'
 alias cl='clear && ll'
 alias code='windsurf'
 alias c='windsurf .'
+alias ea='extract_audio.sh'
 
 # Custom scripts
-export PATH="/Users/ab/custom_scripts:$PATH"
+export PATH="/Users/al/custom_scripts:$PATH"
 
 # pnpm
 export PNPM_HOME="/Users/ab/Library/pnpm"
