@@ -20,22 +20,18 @@ alias cl='clear && ll'
 alias code='windsurf'
 alias c='windsurf .'
 alias ea='extract_audio.sh'
+alias ra='replace_audio.sh'
 
 # Custom scripts
 export PATH="/Users/al/custom_scripts:$PATH"
 
 # pnpm
-export PNPM_HOME="/Users/ab/Library/pnpm"
+export PNPM_HOME="/Users/al/Library/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
-
-# Added by Windsurf
-export PATH="/Users/ab/.codeium/windsurf/bin:$PATH"
-alias claude="open -a Claude"
-alias qclaude="echo \"👋 Goodbye from Claude\" && osascript -e 'quit app \"Claude\"'"
 
 . "$HOME/.local/bin/env"
 
